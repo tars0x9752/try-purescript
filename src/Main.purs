@@ -32,4 +32,3 @@ main = do
   log (showAddress a_address)
   log (showEntry a_entry)
 
-

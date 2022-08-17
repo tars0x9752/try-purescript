@@ -46,7 +46,10 @@
                     ps-tools.for-0_15.purescript-language-server
                     purs-nix.esbuild
                     purs-nix.purescript
-                    nodePackages.purty # for formatting
+
+                    # formatter
+                    # use purs-tidy instead of purty. see: https://github.com/nwolverson/vscode-ide-purescript/pull/204
+                    nodePackages.purs-tidy
                   ];
 
                 shellHook =
