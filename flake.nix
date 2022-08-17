@@ -25,6 +25,7 @@
                     effect
                     prelude
                     lists
+                    numbers
                   ];
 
                 dir = ./.;
