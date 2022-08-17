@@ -4,6 +4,9 @@ import Prelude
 
 import Effect (Effect)
 import Effect.Console (log)
+import Euler (answer)
 
 main :: Effect Unit
-main = log "❄ HELLO WORLD"
+main = do
+  log "hi"
+  log (show answer)

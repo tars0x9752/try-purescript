@@ -24,6 +24,7 @@
                     console
                     effect
                     prelude
+                    lists
                   ];
 
                 dir = ./.;
