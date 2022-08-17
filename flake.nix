@@ -46,6 +46,7 @@
                     ps-tools.for-0_15.purescript-language-server
                     purs-nix.esbuild
                     purs-nix.purescript
+                    nodePackages.purty # for formatting
                   ];
 
                 shellHook =

@@ -8,6 +8,7 @@ import Euler (answer)
 import Num (circleArea)
 import Person (aPerson, showPerson)
 import Val (a_function)
+import Sandbox (showAddress, showEntry, a_address, a_entry)
 
 main :: Effect Unit
 main = do
@@ -27,4 +28,8 @@ main = do
   log "a_function 3"
   log (show (a_function 3))
   log ""
+  log "-- Sandbox --"
+  log (showAddress a_address)
+  log (showEntry a_entry)
+
 
